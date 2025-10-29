@@ -1,9 +1,11 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 
-
 import pandas as pd
 
-
+"""
+svih 4502 izvlacenja
+30.07.1985.- 28.10.2025.
+"""
 
 df = pd.read_csv("/data/loto7_4502_k85.csv", header=None)
 print()
@@ -91,14 +93,14 @@ counter_h = Counter(all_numbers_h)
 
 top_39_h = counter_h.most_common(39)
 print()
-print("4502 izvlacenja")
+print("svih 4502 izvlacenja")
 print("30.07.1985.- 28.10.2025.")
 print()
 for num, cnt in top_39_h:
     print(f"{num}: {cnt}")
 print()
 """
-4502 izvlacenja
+svih 4502 izvlacenja
 30.07.1985.- 28.10.2025.
 
 8: 886
