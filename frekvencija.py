@@ -1,5 +1,13 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 
+
+"""
+Loto Skraceni Sistemi 
+https://www.lotoss.info
+ABBREVIATED LOTTO SYSTEMS
+"""
+
+
 import pandas as pd
 
 """
