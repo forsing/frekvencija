@@ -11,7 +11,7 @@ ABBREVIATED LOTTO SYSTEMS
 import pandas as pd
 
 """
-svih 4502 izvlacenja
+svih 4504 izvlacenja
 30.07.1985.- 31.10.2025.
 """
 
